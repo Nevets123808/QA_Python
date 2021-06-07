@@ -1,6 +1,6 @@
-def grade(homework, assessment, exam):
+def grade(studentname, homework, assessment, exam):
     finalresult = (homework*4 + assessment*2 + exam)/3
-    print(f"Your final score is {finalresult}%")
+    print(f"Hello {studentname}, your final score is {finalresult}%")
     if finalresult > 90:
         grade ="A"
     elif finalresult > 80:
