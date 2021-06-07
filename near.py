@@ -5,7 +5,18 @@ def near(word1, word2):
         if new_word == word2:
             result = True
             break
-    return result
+    print(result)
 
 
-print(near("hello","hell"))
+print("near(\"reset\", \"rest\")")
+near("reset", "rest")
+
+print("near(\"dragoon\", \"dragon\")")
+near("dragoon", "dragon")
+
+print("near(\"eave\", \"leave\")")
+near("eave", "leave")
+
+print("near(\"sleet\", \"lets\")")
+near("sleet", "lets")
+
