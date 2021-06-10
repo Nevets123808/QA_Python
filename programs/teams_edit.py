@@ -4,5 +4,4 @@ with open("C:\\Users\\Steven\\Documents\\QA\\QA_Python\\teams.txt", "r+") as fil
     file.seek(0)
     [file.write(line) for line in lines]
     file.seek(0)
-    lines = file.readlines()
-    print(lines)
+    [print (line) for line in file]
